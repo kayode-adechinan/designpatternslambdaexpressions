@@ -32,6 +32,10 @@ class Mailer {
 
 import java.util.function.Consumer;
 
+
+
+
+
 class Mailer {
     private Mailer print(String val) {
         System.out.println(val); return this;

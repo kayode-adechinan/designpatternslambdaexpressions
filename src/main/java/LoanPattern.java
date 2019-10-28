@@ -33,6 +33,17 @@
 
 import java.util.function.Consumer;
 
+
+
+
+
+
+
+
+
+
+
+
 class Resource{
     private Resource(){
         System.out.println("resource created");
