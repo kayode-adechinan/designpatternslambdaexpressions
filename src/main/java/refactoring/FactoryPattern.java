@@ -1,3 +1,6 @@
+package refactoring;
+
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
@@ -72,6 +75,9 @@ class CarLambdaFactory {
 public class FactoryPattern {
 
     public static void main(String [] args) {
+
+
+
 
         CarFactory carFactory = new CarFactory();
 

@@ -1,4 +1,4 @@
-/*class Resource{
+package refactoring;/*class Resource{
     public Resource(){
         System.out.println("resource created");
     }

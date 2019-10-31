@@ -1,4 +1,4 @@
-/*
+package refactoring;/*
 class Mailer {
     private void print(String val) { System.out.println(val);  }
     public void from(String addr) { print("from"); }
