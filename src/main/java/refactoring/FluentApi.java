@@ -1,4 +1,7 @@
 package refactoring;/*
+
+import java.util.function.Consumer;
+
 class Mailer {
     private void print(String val) { System.out.println(val);  }
     public void from(String addr) { print("from"); }
@@ -8,6 +11,8 @@ class Mailer {
     public void send() { print("sending..."); }
 }
 */
+
+import java.util.function.Consumer;
 
 /*class Mailer {
     private Mailer print(String val) {
@@ -64,13 +69,13 @@ public class FluentApi {
 
 
     public static void main(String[] args) {
-       /* Mailer mailer = new Mailer();
+      /*  Mailer mailer = new Mailer();
         mailer.from("ajay@sample.com");
         mailer.to("sreeram@sample.com");
         mailer.subject("sample subject");
         mailer.body("...");
-        mailer.send();*/
-
+        mailer.send();
+*/
 
        /*new Mailer()
                 .from("ajay@sample.com")

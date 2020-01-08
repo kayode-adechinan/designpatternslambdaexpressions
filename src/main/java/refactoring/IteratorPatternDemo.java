@@ -1,6 +1,10 @@
 package refactoring;
 
+
 import java.util.List;
+
+
+
 
 public class IteratorPatternDemo {
 
@@ -17,6 +21,9 @@ public class IteratorPatternDemo {
         numbers.forEach(e->System.out.println(e));
 
         numbers.forEach(System.out::println);
+
+
+
 
 
 

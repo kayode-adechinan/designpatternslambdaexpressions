@@ -1,4 +1,8 @@
-package refactoring;/*class Resource{
+package refactoring;
+
+import java.util.function.Consumer;
+
+/*class Resource{
     public Resource(){
         System.out.println("resource created");
     }
@@ -66,11 +70,11 @@ public class LoanPattern  {
 
     public static void main(String[] args) {
 
-       /* Resource resource=new Resource();
+     /*   Resource resource=new Resource();
         resource.op1();
-        resource.op2();*/
-
-        /*Resource resource=new Resource();
+        resource.op2();
+*/
+       /* Resource resource=new Resource();
         resource.op1();
         resource.op2();
         resource.close();*/
@@ -81,9 +85,9 @@ public class LoanPattern  {
             resource.op2();
         }finally{
             resource.close();
-        }*/
-
-     /*   try (Resource resource = new Resource()) {
+        }
+*/
+    /*    try (Resource resource = new Resource()) {
             resource.op1();
             resource.op2();
         }*/
